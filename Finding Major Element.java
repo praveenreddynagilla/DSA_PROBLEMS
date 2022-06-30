@@ -19,7 +19,7 @@ class Solution {
 //         }
 //         return majority;
         
-        int m=0;                        //BOYER MORR METHOD
+        int m=0;                        //BOYER MORRER'S VALIDITY METHOD
         int count=0;
         for(int i=0;i<nums.length;i++){  // TRYING TO DO WITH O(N) COMPLEXITY
             if(count==0){      //if count 0 then update the majority value
